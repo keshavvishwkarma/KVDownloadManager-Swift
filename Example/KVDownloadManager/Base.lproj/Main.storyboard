@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KVDownloadManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e6z-vV-6M5" customClass="KVCircularProgressView" customModule="KVDownloadManager" customModuleProvider="target">
+                                <rect key="frame" x="131.5" y="282.5" width="111" height="111"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="0.1458090179" blue="0.36736113840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="e6z-vV-6M5" secondAttribute="height" multiplier="1:1" id="TPk-WR-1ce"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OYS-1m-tlQ" customClass="KVCircularProgressView" customModule="KVDownloadManager" customModuleProvider="target">
+                                <rect key="frame" x="131.5" y="156" width="111" height="110.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="0.1458090179" blue="0.36736113840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OYS-1m-tlQ" secondAttribute="height" multiplier="1:1" id="ddY-5k-qiD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RdH-cC-ryc" customClass="KVCircularProgressView" customModule="KVDownloadManager" customModuleProvider="target">
+                                <rect key="frame" x="131.5" y="409.5" width="111" height="110.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="0.1458090179" blue="0.36736113840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0gG-ib-0UJ" customClass="KVCircularProgressView" customModule="KVDownloadManager" customModuleProvider="target">
+                                <rect key="frame" x="132" y="20" width="110" height="110"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="0.1458090179" blue="0.36736113840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jxk-Eb-aRv" customClass="KVCircularProgressView" customModule="KVDownloadManager" customModuleProvider="target">
+                                <rect key="frame" x="131.5" y="536" width="111" height="111"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="0.1458090179" blue="0.36736113840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0gG-ib-0UJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="6en-vg-zKP"/>
+                            <constraint firstItem="e6z-vV-6M5" firstAttribute="width" secondItem="OYS-1m-tlQ" secondAttribute="width" id="7Mg-Sb-V7g"/>
+                            <constraint firstItem="jxk-Eb-aRv" firstAttribute="top" secondItem="RdH-cC-ryc" secondAttribute="bottom" constant="16" id="8A2-wr-FRo"/>
+                            <constraint firstItem="e6z-vV-6M5" firstAttribute="top" secondItem="OYS-1m-tlQ" secondAttribute="bottom" constant="16" id="F7p-bh-S5v"/>
+                            <constraint firstItem="RdH-cC-ryc" firstAttribute="centerX" secondItem="e6z-vV-6M5" secondAttribute="centerX" id="JWW-WI-uzJ"/>
+                            <constraint firstItem="OYS-1m-tlQ" firstAttribute="height" secondItem="0gG-ib-0UJ" secondAttribute="height" id="Lr1-as-JGD"/>
+                            <constraint firstItem="0gG-ib-0UJ" firstAttribute="centerX" secondItem="OYS-1m-tlQ" secondAttribute="centerX" id="Yfa-yG-2k0"/>
+                            <constraint firstItem="jxk-Eb-aRv" firstAttribute="width" secondItem="RdH-cC-ryc" secondAttribute="width" id="Yi5-bO-FY2"/>
+                            <constraint firstItem="RdH-cC-ryc" firstAttribute="width" secondItem="RdH-cC-ryc" secondAttribute="height" multiplier="1:1" id="c8s-FM-sy2"/>
+                            <constraint firstItem="OYS-1m-tlQ" firstAttribute="centerX" secondItem="e6z-vV-6M5" secondAttribute="centerX" id="chc-4P-fay"/>
+                            <constraint firstItem="jxk-Eb-aRv" firstAttribute="centerX" secondItem="RdH-cC-ryc" secondAttribute="centerX" id="ds9-gM-wAr"/>
+                            <constraint firstItem="0gG-ib-0UJ" firstAttribute="width" secondItem="0gG-ib-0UJ" secondAttribute="height" multiplier="1:1" id="eUQ-t7-BWm"/>
+                            <constraint firstItem="RdH-cC-ryc" firstAttribute="height" secondItem="e6z-vV-6M5" secondAttribute="height" id="eiG-mq-D0i"/>
+                            <constraint firstItem="jxk-Eb-aRv" firstAttribute="width" secondItem="jxk-Eb-aRv" secondAttribute="height" multiplier="1:1" id="iuW-B1-bqE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jxk-Eb-aRv" secondAttribute="bottom" constant="20" id="jnC-TP-hwp"/>
+                            <constraint firstItem="OYS-1m-tlQ" firstAttribute="top" secondItem="0gG-ib-0UJ" secondAttribute="bottom" constant="26" id="sk1-gu-rbK"/>
+                            <constraint firstItem="e6z-vV-6M5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xHS-7w-5Vr"/>
+                            <constraint firstItem="RdH-cC-ryc" firstAttribute="top" secondItem="e6z-vV-6M5" secondAttribute="bottom" constant="16" id="yuB-wg-ICo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
